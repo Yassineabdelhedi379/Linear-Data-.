@@ -1,0 +1,10 @@
+ALGORITHM isertion_array
+VAR
+    tab : ARRAY_OF INTEGER[0];
+    i,j : INTEGER;
+BEGIN
+  Set 1: [12, 13, 3, 10]
+  Set 2: [13, 10, 16, 15]
+    FOR i FROM 0 TO 7    DO
+        read (tab[i]);
+    END_FOR
